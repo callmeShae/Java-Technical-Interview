@@ -1,5 +1,11 @@
 
-What is the difference between JDK and JRE?
+1) What is the difference between JDK and JRE?
 
-JDK stands for Java Development Kit, which is a software development environment for building Java applications.
-JRE stands for Jave Runtime Environment, which is require to run Java programs.
+   JDK stands for Java Development Kit, which is a software development environment for building Java applications.
+   JRE stands for Jave Runtime Environment, which is require to run Java programs.
+
+2) Why is Java a platform independent language?
+
+   By relying on a virtual machine, Java achieves platform independence. 
+   In practice, this means that both the Java programming language and it's associated APIs are first compiled bytecodes that can run on multiple platforms.
+   Then, the virtual machine handles any variations in how these bytecodes are executed across different platforms.
